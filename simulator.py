@@ -26,5 +26,5 @@ def Martingale():
                 writer.writerow({"bet_type": "red", "initial_balance": 1000, "target_balance": 2000, "min_bet": 1, "rounds": user.game.rounds, "final_balance": user.balance})
             break
         
-for i in range (34):        
+for i in range (1):        
     Martingale()

@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  roulettesimulator:
+    image: roulettesimulator
+    build:
+      context: .
+      dockerfile: ./Dockerfile
